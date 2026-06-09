@@ -1,0 +1,49 @@
+# Build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# JetBrains Rider cache
+.idea/
+*.DotSettings.user
+
+# ASP.NET Core
+appsettings.Development.json
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Publish output
+publish/
+
+# Entity Framework
+*.db
+*.db-shm
+*.db-wal
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Test Results
+TestResults/
+
+# Coverage Reports
+coverage/
+Project Ditailes/
