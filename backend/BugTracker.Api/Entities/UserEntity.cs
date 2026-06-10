@@ -36,6 +36,15 @@ public class UserEntity: BaseEntity
     public ICollection<BugEntity> AssignedBugs { get; set; }
         = new List<BugEntity>();
 
+    public ICollection<BugEntity> ReportedBugs { get; set; }
+        = new List<BugEntity>();
+
     public ICollection<CommentEntity> Comments { get; set; }
         = new List<CommentEntity>();
+
+    public ICollection<AttachmentEntity> Attachments { get; set; }
+        = new List<AttachmentEntity>();
+
+    public ICollection<BugHistoryEntity> BugHistories { get; set; }
+        = new List<BugHistoryEntity>();
 }
